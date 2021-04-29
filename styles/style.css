@@ -28,7 +28,6 @@ ul {
 }
 
 .header__title {
-  margin: 0;
   margin-left: 64px;
   line-height: 96px;
   width: 730px;
@@ -39,7 +38,6 @@ ul {
 
 .header__subtitle {
   position: absolute;
-  margin: 0;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
