@@ -1,13 +1,1 @@
-.header__square-pic_rotation {
-  animation: rotation 20s infinite running linear;
-}
 
-
-@keyframes rotation {
-  from {
-      transform: rotate(0);
-  }
-  to {
-      transform: rotate(360deg);
-  }
-}
