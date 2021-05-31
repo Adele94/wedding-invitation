@@ -1,13 +1,11 @@
-.header__subtitle {
+.dress-code__paragraph {
   color: #666666;
-  font-size: 22px;
+  font-size: 16px;
   font-family: 'Arial',Arial,sans-serif;
-  line-height: 1.3;
-  font-weight: 100;
+  line-height: 1.25;
+  font-weight: 300;
   background-position: center center;
   border-color: transparent;
   border-style: solid;
-  z-index: 2;
-  margin: 0;
   padding: 0;
 }

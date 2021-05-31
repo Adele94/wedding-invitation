@@ -1,0 +1,6 @@
+.programm__table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

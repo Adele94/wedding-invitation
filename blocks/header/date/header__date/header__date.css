@@ -1,0 +1,10 @@
+.header__date {
+  color: #5b756f;
+  font-size: 32px;
+  font-family: 'Arial',Arial,sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}

@@ -1,9 +1,0 @@
-.header__subtitle-link {
-  text-decoration: none;
-  color: #2f80ed;
-  transition: opacity 0.1s linear;
-}
-
-.header__subtitle-link:hover {
-  opacity: 0.5;
-}

@@ -1,0 +1,10 @@
+.dress-code__circle {
+  border-color: transparent;
+  border-style: solid;
+  display: table-cell;
+  vertical-align: middle;
+  background-position: center;
+  margin: -15% auto 0;
+  width: 100%;
+  z-index: 2;
+}

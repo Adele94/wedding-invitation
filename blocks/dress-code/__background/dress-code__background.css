@@ -1,0 +1,7 @@
+.dress-code__background {
+  background-image: url(../../../images/B625D07E-F722-459F-B.webp);
+  transform: rotate(140deg);
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
