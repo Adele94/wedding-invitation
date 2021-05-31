@@ -1,0 +1,15 @@
+.footer__heart {
+  animation: scale 1.2s infinite ease-in-out running alternate;
+}
+
+
+@keyframes scale {
+    from {
+        transform: scale(1);
+        -webkit-transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.4);
+        -webkit-transform: scale(1.4);
+    }
+}

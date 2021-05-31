@@ -9,7 +9,7 @@
 <body>
   <div class="page">
     <header class="header">
-      <h1 class="header__title">Адель и Адель</h1>
+      <img class="header__title" src="images/Names.png">
       <p class="header__subtitle">Приглашают Вас разделить с ними праздничный вечер
         <br>
         в честь регистрации брака, которая состоится
@@ -64,6 +64,7 @@
       </div>
     </section>
     <section class="dress-code">
+      <div class="dress-code__background"></div>
       <div class="dress-code__color">
         <img class="dress-code__title" src="./images/dress-code.webp">
         <img class="dress-code__circle" src="./images/dress-color.png">
@@ -75,12 +76,65 @@
       <p class="dress-code__paragraph">Мы очень ценим Вашу заботу, внимание и будем рады любому подарку!
         <br> И не важно, в какой конверт Вы его упакуете :)
       </p>
-      <div class="dress-code__background">
-      </div>
     </section>
+    <!-- Slideshow container -->
+<div class="slideshow-container" style="width: 60%; display: flex; justify-content: center; margin: 30px auto 0;">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="./images/1.jpg" style="width: 100%; max-width: 500px;">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./images/2.JPG" style="width: 100%; max-width: 500px;">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="./images/3.jpg" style="width: 100%; max-width: 500px;">
+  </div>
+  <div class="mySlides fade">
+    <img src="./images/4.jpg" style="width: 100%; max-width: 500px;">
+  </div>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
     </main>
     <footer class="footer">
+      <section>
+        <div class="footer__heart-scale">
+          <img class="footer__heart" src="./images/heart.webp">
+        </div>
+        <p class="footer__paragraph">С нетерпением ждём Вас!</p>
+      </section>
     </footer>
   </div>
+  <script>
+    var slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
 </body>
 </html>
