@@ -1,5 +1,6 @@
 .table__info-heading {
   color: #666666;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 20px;
+  text-align: left;
 }

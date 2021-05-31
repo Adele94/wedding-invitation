@@ -1,0 +1,17 @@
+.hashtag__tag {
+  color: #666;
+  font-size: 15px;
+  font-family: 'Ubuntu',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 100;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  z-index: 3;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+  align-self: center;
+}

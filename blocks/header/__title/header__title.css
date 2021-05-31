@@ -1,9 +1,6 @@
 .header__title {
-  margin: 0;
+  margin: 200px auto 20px;
   padding: 0;
-  line-height: 96px;
-  font-size: 102px;
   z-index: 2;
-  color:  #666666;
   width: 80%;
 }

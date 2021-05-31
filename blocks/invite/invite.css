@@ -1,0 +1,17 @@
+.invite {
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: 'Arial';
+  color: #666666;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 30px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+.invite p {
+  margin: 0;
+}

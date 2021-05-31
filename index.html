@@ -17,46 +17,71 @@
       <p class="header__date">10 июля 2021 года</p>
     </header>
     <main class="content">
-      <section class="programm">
+      <section class="invite">
+        <p>Мы верим, что этот день послужит началом нашей счастливой семейной жизни.</p>
+        <p>Поэтому не представляем наш праздник без Вашего участия.</p>
+        <p>Разделите с нами главное событие лета - подарите нам своё внимание и поддержку.</p>
+      </section>
+      <section class="hashtag">
+        <img class="hashtag__title" src="images/hashtag.png">
+        <img class="hashtag__leaf" style="margin-left: -35px;" src="images/leftleaf.png">
+        <p class="hashtag__tag" src="images/hashtag.png">#Adelslove</p>
+        <img class="hashtag__leaf" style="right: 0; margin-right: -35px;" src="images/rightleaf.webp">
+      </section>
+       <section class="programm">
       <h2 class="programm__title">Программа дня</h2>
       <p class="programm__subtitle">Суббота, 10 июля</p>
       <div class="programm__table">
         <div class="table__row">
-          <p class="table__time">15:00</p>
-          <img class="table__image" src="./images/transfer.webp">
+          <div style="position: relative;">
+            <img class="table__image" src="./images/transfer.webp">
+            <div class="table__line"></div>
+          </div>
           <div class="table__info">
+            <p class="table__time">15:00</p>
             <h3 class="table__info-heading">Трансфер </h3>
             <p class="table__info-text">Не волнуйтесь о том, как добраться до ресторана! <br> Всех желающих будет ожидатьб транспорт в центре</p>
           </div>
         </div>
         <div class="table__row">
-          <p class="table__time">16:00</p>
-          <img class="table__image" src="./images/ring.webp">
+          <div style="position: relative;">
+            <img class="table__image" src="./images/ring.webp">
+            <div class="table__line"></div>
+          </div>
           <div class="table__info">
+            <p class="table__time">16:00</p>
             <h3 class="table__info-heading">Церемония регистрации </h3>
             <p class="table__info-text">Не волнуйтесь о том, как добраться до ресторана! <br> Всех желающих будет ожидатьб транспорт в центре</p>
           </div>
         </div>
         <div class="table__row">
-          <p class="table__time">18:00</p>
-          <img class="table__image" src="./images/banket.webp">
+          <div style="position: relative;">
+            <img class="table__image" src="./images/banket.webp">
+            <div class="table__line"></div>
+          </div>
           <div class="table__info">
+            <p class="table__time">18:00</p>
             <h3 class="table__info-heading">Праздничный банкет </h3>
             <p class="table__info-text">Не волнуйтесь о том, как добраться до ресторана! <br> Всех желающих будет ожидатьб транспорт в центре</p>
           </div>
         </div>
         <div class="table__row">
-          <p class="table__time">21:00</p>
-          <img class="table__image" src="./images/cake.webp">
+          <div style="position: relative;">
+            <img class="table__image" src="./images/cake.webp">
+            <div class="table__line"></div>
+          </div>
           <div class="table__info">
+            <p class="table__time">21:00</p>
             <h3 class="table__info-heading">Свадебный торт</h3>
             <p class="table__info-text">Вы обязаны попробовать этот нежнейше-вкуснейший торт <br> от искусных кондитеров города</p>
           </div>
         </div>
         <div class="table__row">
-          <p class="table__time">22:00</p>
-          <img class="table__image" src="./images/finish.webp">
+          <div style="position: relative;">
+            <img class="table__image" src="./images/finish.webp">
+          </div>
           <div class="table__info">
+            <p class="table__time">22:00</p>
             <h3 class="table__info-heading">Окончание торжества </h3>
             <p class="table__info-text">К сожалению, и такой прекрасный вечер должен подойти к концу</p>
           </div>
@@ -69,16 +94,16 @@
         <img class="dress-code__title" src="./images/dress-code.webp">
         <img class="dress-code__circle" src="./images/dress-color.png">
       </div>
-      <p class="dress-code__paragraph">Мы старались сделать торжество красивым и гармоничным,
+      <p class="dress-code__paragraph" style="width: 80%;">Мы старались сделать торжество красивым и гармоничным,
         <br> поэтому будем признательны, если Вы
         <br> поддержите цветовую палитру нашей свадьбы
       </p>
-      <p class="dress-code__paragraph">Мы очень ценим Вашу заботу, внимание и будем рады любому подарку!
+      <p class="dress-code__paragraph" style="width: 80%;">Мы очень ценим Вашу заботу, внимание и будем рады любому подарку!
         <br> И не важно, в какой конверт Вы его упакуете :)
       </p>
     </section>
-    <!-- Slideshow container -->
-<div class="slideshow-container" style="width: 60%; display: flex; justify-content: center; margin: 30px auto 0;">
+    <!-- Slideshw container-->
+<div class="slideshow-container" style="width: 60%; display: flex; justify-content: center; margin: 50px auto 0;">
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
@@ -98,7 +123,7 @@
 </div>
 <br>
 
-<!-- The dots/circles -->
+ <!--The dots/circles -->
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
@@ -118,20 +143,20 @@
   <script>
     var slideIndex = 0;
     showSlides();
-    
+
     function showSlides() {
         var i;
         var slides = document.getElementsByClassName("mySlides");
         var dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++) {
-           slides[i].style.display = "none";  
+           slides[i].style.display = "none";
         }
         slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
+        if (slideIndex > slides.length) {slideIndex = 1}
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";  
+        slides[slideIndex-1].style.display = "block";
         dots[slideIndex-1].className += " active";
         setTimeout(showSlides, 2000); // Change image every 2 seconds
     }
