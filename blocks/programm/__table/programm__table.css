@@ -1,6 +1,7 @@
 .programm__table {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: repeat(5, 1fr);
+  margin: 0 auto;
   justify-content: center;
-  align-items: center;
 }

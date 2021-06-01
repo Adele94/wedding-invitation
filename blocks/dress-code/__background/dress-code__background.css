@@ -10,5 +10,6 @@
   background-repeat: no-repeat;
   box-sizing: content-box;
   overflow: hidden;
-  padding-left: 75%;
+  /* padding-left: 75%; */
+  margin-left: 45%;
 }
