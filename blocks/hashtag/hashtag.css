@@ -1,6 +1,13 @@
 .hashtag {
+  background-image: url(../../images/hashtag.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   display: flex;
   position: relative;
-  width: 100%;
+  justify-content: center;
   overflow: hidden;
+  box-sizing: border-box;
+  max-width: 768px;
+  margin: 0 auto;
 }
