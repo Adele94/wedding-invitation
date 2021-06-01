@@ -7,6 +7,7 @@
   background-position: center center;
   border-color: transparent;
   border-style: solid;
+  box-sizing: border-box;
   z-index: 3;
   text-align: center;
   position: absolute;

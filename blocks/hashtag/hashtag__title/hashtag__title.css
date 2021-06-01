@@ -3,4 +3,5 @@
   background-position: center center;
   border-color: transparent;
   border-style: solid;
+  box-sizing: border-box;
 }

@@ -1,4 +1,6 @@
 .hashtag {
   display: flex;
   position: relative;
+  width: 100%;
+  overflow: hidden;
 }
