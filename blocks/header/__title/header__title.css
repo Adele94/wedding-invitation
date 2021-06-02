@@ -4,3 +4,20 @@
   z-index: 2;
   max-width: 80%;
 }
+
+
+.header__title {
+  animation: scale_title 1.5s 2 ease-in-out running alternate;
+}
+
+
+@keyframes scale_title {
+    from {
+        transform: scale(1);
+        -webkit-transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+    }
+}

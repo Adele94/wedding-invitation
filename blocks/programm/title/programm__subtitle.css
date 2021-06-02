@@ -1,5 +1,6 @@
 .programm__subtitle {
-  font-size: 20px;
+  font-size: 14px;
+  line-height: 1.4;
   font-family: 'Arial';
   color: #666666;
   text-align: center;
@@ -7,21 +8,6 @@
 
 @media screen and (min-width: 768px) {
   .programm__subtitle {
-    font-size: 22px;
-    line-height: 1.3;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .programm__subtitle {
-    font-size: 24px;
-    line-height: 1.3;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .programm__subtitle{
-    font-size: 28px;
-    line-height: 1.3;
+    font-size: 20px;
   }
 }

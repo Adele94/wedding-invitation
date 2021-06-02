@@ -7,24 +7,3 @@
   background-repeat: no-repeat;
   z-index: 2;
 }
-
-@media screen and (min-width: 768px) {
-  .table__image {
-    max-width: 95px;
-    max-height: 95px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .table__image {
-    max-width: 100px;
-    max-height: 100px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .table__image {
-    max-width: 120px;
-    max-height: 120px;
-  }
-}

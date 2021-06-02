@@ -1,7 +1,6 @@
 .dress-code__color {
   margin: 0 auto;
-  padding: 0 auto;
-  max-width: 90%;
+  padding: 0;
   max-width: 360px;
   z-index: 2;
 }

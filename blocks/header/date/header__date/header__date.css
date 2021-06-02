@@ -1,6 +1,6 @@
 .header__date {
   color: #5b756f;
-  font-size: 25px;
+  font-size: 26px;
   font-family: 'Arial',Arial,sans-serif;
   line-height: 1;
   font-weight: 400;
@@ -11,21 +11,21 @@
 
 @media screen and (min-width: 768px) {
   .header__date {
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.3;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header__date {
-    font-size: 36px;
-    line-height: 1.3;
+    font-size: 28px;
+    line-height: 1.55;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .header__date {
-    font-size: 42px;
-    line-height: 1.3;
+    font-size: 30px;
+    line-height: 1.55;
   }
 }

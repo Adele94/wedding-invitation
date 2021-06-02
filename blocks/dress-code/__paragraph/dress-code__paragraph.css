@@ -13,7 +13,7 @@
   max-width: 90%;
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 768px) {
   .dress-code__paragraph {
     max-width: 680px;
   }

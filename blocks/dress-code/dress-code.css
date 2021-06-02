@@ -1,7 +1,6 @@
 .dress-code {
   display: flex;
   flex-direction: column;
-  width: 100vw;
   position: relative;
   margin: 0 auto;
   text-align: center;

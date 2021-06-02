@@ -1,28 +1,14 @@
 .table__info-text {
   color: #666666;
-  font-size: 18px;
+  font-size: 14px;
+  line-height: 20px;
   font-family: 'Ubuntu';
   text-align: left;
 }
 
-
-@media screen and (min-width: 768px) {
-  .table__info-text {
-    font-size: 22px;
-    line-height: 1.3;
-  }
-}
-
 @media screen and (min-width: 1024px) {
   .table__info-text {
-    font-size: 28px;
-    line-height: 1.3;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .table__info-text {
-    font-size: 34px;
+    font-size: 18px;
     line-height: 1.3;
   }
 }
