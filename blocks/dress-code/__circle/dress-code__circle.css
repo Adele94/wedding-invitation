@@ -4,7 +4,7 @@
   display: table-cell;
   vertical-align: middle;
   background-position: center;
-  margin: -15% auto 0;
+  margin: -15% auto 15%;
   width: 100%;
   z-index: 3;
 }

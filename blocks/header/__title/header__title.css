@@ -2,5 +2,5 @@
   margin: 200px auto 20px;
   padding: 0;
   z-index: 2;
-  width: 80%;
+  max-width: 80%;
 }

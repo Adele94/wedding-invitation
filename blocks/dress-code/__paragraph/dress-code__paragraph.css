@@ -2,7 +2,7 @@
   color: #666666;
   font-size: 16px;
   font-family: 'Arial',Arial,sans-serif;
-  line-height: 1.25;
+  line-height: 1.5;
   font-weight: 300;
   background-position: center center;
   border-color: transparent;
@@ -10,4 +10,11 @@
   margin: 0 auto;
   padding: 0;
   z-index: 2;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 780px) {
+  .dress-code__paragraph {
+    max-width: 680px;
+  }
 }
