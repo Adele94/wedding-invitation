@@ -13,6 +13,26 @@
   text-align: center;
   -webkit-font-smoothing: antialiased;
   max-width: 100%;
+  opacity: 0;
+  animation: opacity_subtitle 1s 1.5s 1 ease-out forwards running;
+}
+
+@keyframes opacity_subtitle {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 
